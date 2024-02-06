@@ -1,0 +1,24 @@
+
+#hero, #img-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#hero {
+    display: block;   
+}
+
+#img-container {
+    background-color: #737373;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    text-align: center;
+}
+
+.images{
+    margin: 10% auto;
+    display: inline-block;
+    border-radius: 50%;
+    border: 10px solid #454445;
+    max-width: 60%;
+}
