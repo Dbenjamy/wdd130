@@ -1,0 +1,44 @@
+body {
+    background-color: purple;
+}
+
+section {
+    padding: 30px;
+}
+
+#tv-show {
+    background-color: white;
+    grid-row: 1/3;
+}
+
+.fav-food {
+    background-color: aqua;
+}
+
+#color {
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    grid-row: 1;
+}
+
+#color div {
+    background-color: #FFBF00;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* max-width: 700px; */
+}
+
+footer {
+    background-color: darkgrey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+#top, #bottom {
+    grid-column: 1/-1;
+}

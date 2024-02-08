@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Aleo:wght@300&display=swap');
+
+/* :root {
+    --heading-font: Acme;
+    --paragraph-font: Aleo, Helvetica, sans-sarif;
+} */
 
 #content {
     max-width: 1600px;
@@ -8,6 +14,7 @@ nav a {
     text-align: center;
     color: #084887;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -25,10 +32,26 @@ nav a {
 
 body {
     background-color: aliceblue;
+    font-family: Aleo, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: Acme, Helvetica, sans-serif;
 }
 
 main section {
     text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 #backround {
@@ -47,6 +70,8 @@ nav a:hover {
 
 .home-title {
     color: #084887;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -57,6 +82,10 @@ h4 {
     background-color: #FC7753;
     color: #084887;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -66,14 +95,29 @@ h4 {
 
 .msg {
     background-color: #FFC857;
+    padding: 35px;
 }
 
 .msg h2, .msg p {
     color: #084887;
 }
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.msg {
+    line-height: 1.5em;
+}
 
 footer {
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer, footer a {
@@ -89,4 +133,17 @@ footer a:hover {
 
 .logo, .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-image {
+    border: 10px solid #084887;
 }
