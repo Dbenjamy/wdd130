@@ -1,0 +1,41 @@
+
+.chrGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 800px;
+    height: 400px;
+    margin: 0;
+}
+
+#tarttext {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    text-align: center;
+    font-size: 100px;
+    z-index: 2;
+    margin: 0 auto;
+}
+
+#chrrtext {
+    position: absolute;
+    top: 100%;
+    /* left: 50%; */
+}
+
+#chrr {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+#chrrBox {
+    width: 100%;
+    height: 100%;
+}
+#grey {
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+}
