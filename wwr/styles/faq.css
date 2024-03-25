@@ -12,10 +12,16 @@
 .faq-images-left {
     float: inline-start;
     margin-right: 10px;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #084887;
 }
 
 h4 {
     clear: both;
     padding-top: 15px;
+}
+
+.color-text {
+    color: white;
+    padding: 10px;
+    background-color: #4D9DE0;
 }
