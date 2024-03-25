@@ -1,0 +1,21 @@
+.faq-text {
+    margin-left: 50px;
+    padding-right: 50px;
+}
+
+.faq-images-right {
+    float: inline-end;
+    margin-left: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.faq-images-left {
+    float: inline-start;
+    margin-right: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+h4 {
+    clear: both;
+    padding-top: 15px;
+}
