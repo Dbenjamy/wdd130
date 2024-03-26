@@ -1,0 +1,10 @@
+@import url(general.css);
+
+main {
+    grid-template-rows: repeat(20,200px);
+}
+
+/* Used for testing */
+main p {
+    max-width: 20px;
+}
